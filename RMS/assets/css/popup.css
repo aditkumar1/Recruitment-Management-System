@@ -1,0 +1,35 @@
+﻿.modalBackground {
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.modalPopup {
+    background-color: #FFFFFF;
+    width: 550px;
+    border: 3px solid #0DA9D0;
+    border-radius: 12px;
+    padding: 0;
+}
+
+    .modalPopup .header {
+        background-color: #2FBDF1;
+        height: 30px;
+        color: White;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .modalPopup .body {
+        min-height: 50px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .modalPopup .footer {
+        padding: 6px;
+    }
